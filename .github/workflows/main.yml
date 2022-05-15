@@ -7,9 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Access repository
-        uses: actions/setup-python@v3
-
       - name: Setup Python
         uses: actions/setup-python@v3
         with:
